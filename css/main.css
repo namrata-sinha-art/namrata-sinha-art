@@ -14,6 +14,17 @@ nav ul, footer ul {
 	font-weight: bold;
 }
 
+.cont{
+
+	position: relative;
+	text-align: center;
+    color: white;
+    margin: 0;
+    padding: 0%;
+
+}
+
+
 .container a{
     list-style: none;
     margin: -40px;
@@ -94,11 +105,34 @@ ul li {
 }
 
 .container{
-    padding: 60px;
+    /* padding: 60px; */
     /* color: rgb(0, 0, 0); */
     font-size: 25px;
+    text-align: center;
     
 }
+
+.name, .description{
+	position: absolute;
+	left: 50%;
+	transform: translate(-50%,-50%);
+}
+
+.name{
+    top: 20%;
+    width: 100%;
+    font-size: 8vw;
+}
+
+.description{
+    top: 70%;
+    font-size: 5vw;
+	
+}
+
+/* .container>img{
+    margin: 20px;
+} */
 
 .container h2{
     color: rgb(255, 0, 0);
@@ -122,7 +156,7 @@ ul li {
     margin-bottom: 30px;
 }
 
-#student h3{
+#student>h3{
     margin: 60px;
     color: rgb(0, 0, 0) ;
     font-size: 20px;
@@ -140,6 +174,14 @@ ul li {
     width: 27vw;
     margin-bottom: 10px;
     
+}
+
+.student>h3{
+    color: white;
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 15px;
+    font-size: 200%;
 }
 
 
@@ -273,7 +315,7 @@ ul li {
     }
 
     .container{
-        padding: 20px;
+        padding: 0px;
         
         font-size: 25px;
         
@@ -293,7 +335,7 @@ ul li {
         margin-bottom: 30px;
     }
     
-    #student h3{
+    #student>h3{
         margin-left: 20px;
         
         font-size: 18px;
@@ -341,6 +383,4 @@ ul li {
 
 
 }
-
-
 
